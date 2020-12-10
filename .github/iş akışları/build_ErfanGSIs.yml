@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/16s/8.20.11.10/cn_daily/20201110003048/9e816b1b/update.zip
+  ROM_URL: https://bigota.d.miui.com/20.12.9/miui_GINKGO_20.12.9_7c5ed1cb0b_10.0.zip
   ROM_NAME: Flyme
   TZ: Asia/Kolkata
   MIR: wet
@@ -26,7 +26,7 @@ jobs:
 
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/YuMiGSIs/ErfanGSIs-VelanGSIs.git  ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/doganoo65/gsi-maker.git  ErfanGSIs
        
        - name: Setting up ErfanGSI requirements
          run: |
